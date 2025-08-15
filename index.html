@@ -3,21 +3,304 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sameera Pujari portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-    <h1>Hello, I'm Sameera</h1>
-    <p>Aspiring Web Developer</p>
-  </header>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Sameera Pujari</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+<!-- hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Frontend Developer</h1>
+            <p class="subtitle">Creating Beautiful & Interactive Web Experiences</p>
+            <p class="description">
+                Passionate about crafting pixel-perfect, responsive websites with modern technologies.
+                I believe great design starts with user experience and effortless navigation.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-code"></i>
+                    View My Work
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i>
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h3>Hello! I'm Sameera — an aspiring Frontend Developer</h3>
+                    <p>
+                        I enjoy turning ideas into interactive, user-friendly websites. With a growing foundation in modern web technologies, 
+                        I focus on building clean, responsive, and accessible interfaces that make a real impact.
+                    </p>
+                    <p>
+                       I'm currently seeking an internship where I can apply my skills, learn from experienced teams, and contribute to innovative projects — especially those involving AI-powered or data-driven experiences. 
+                       Always curious and eager to grow, I embrace every opportunity to improve my craft and explore new tools.
+                    </p>
+                </div>
+                <div class="skills-grid fade-in">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <h4>HTML5</h4>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <h4>CSS3</h4>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js-square"></i>
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-git-alt"></i>
+                        <h4>Git & GitHub</h4>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Responsive Design</h4>
+                    </div>
+                    <div class="skill-item">
+                      <i class="fab fa-node-js"></i>
+                      <h4>Node.js</h4>
+                    </div>
+                    <div class="skill-item">
+                      <i class="fas fa-robot"></i>
+                      <h4>AI Integration</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section>
-    <h2>Projects</h2>
-    <p>Projects will be displayed here soon.</p>
-  </section>
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title fade-in">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-car-side"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">EcoRide - Carpooling System</h3>
+                        <p class="project-description">
+                           A full-stack carpooling platform that connects commuters for 
+                           cost-effective and eco-friendly travel, featuring simple booking forms, 
+                           basic ride management, and JWT-based authentication.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">REST APIs</span>
+                        </div>
+                        <div class="project-links">
+                           
+                            <a href="https://github.com/webdev-Sameera/EcoRide-Carpooling-System" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-  <footer>
-    <p>© 2025 Sameera Pujari</p>
-  </footer>
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-dove"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Bird Classification Using CNNs</h3>
+                        <p class="project-description">
+                           A deep learning model that classifies bird species using both images and audio,
+                            using transfer learning and spectrogram-based analysis for high accuracy.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Keras</span>
+                            <span class="tech-tag">Librosa</span>
+                            <span class="tech-tag">EfficientNet</span>
+                        </div>
+                        <div class="project-links">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Resume Coach AI</h3>
+                        <p class="project-description">
+                            A full-stack web app for creating resumes through an interactive form and downloading them as PDFs, 
+                            with AI-powered ATS analysis that scores resumes against job descriptions and suggests role-specific improvements.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">OpenAI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/webdev-Sameera/resume-coach-ai" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info fade-in">
+                    <h3>Let's Connect!</h3>
+                    <p>I'm actively seeking internship opportunities and would love to hear from you.</p>
+                    <br>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>sameerapujari.15@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 84088 63881</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Pune, Maharashtra, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form fade-in">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="background: var(--gradient); color: white; border: none;">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2025 Sameera Pujari. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+       
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+
+        // some scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.style.background = 'rgba(255, 255, 255, 0.98)';
+                navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+            } else {
+                navbar.style.background = 'rgba(255, 255, 255, 0.95)';
+                navbar.style.boxShadow = 'none';
+            }
+        });
+//form
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I\'ll get back to you soon.');
+            this.reset();
+        });
+
+//animation
+        const heroTitle = document.querySelector('.hero h1');
+        const text = heroTitle.textContent;
+        heroTitle.textContent = '';
+        
+        let i = 0;
+        const typeWriter = () => {
+            if (i < text.length) {
+                heroTitle.textContent += text.charAt(i);
+                i++;
+                setTimeout(typeWriter, 100);
+            }
+        };
+        
+        setTimeout(typeWriter, 1000);
+    </script>
 </body>
 </html>
