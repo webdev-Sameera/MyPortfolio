@@ -1,50 +1,39 @@
-Personal Portfolio Website
+# 🌐 Personal Portfolio Website
 
-A responsive personal portfolio website showcasing my projects, skills, and experience as an aspiring frontend developer. Built with clean design, smooth navigation, and a focus on user experience.
+A responsive personal portfolio website showcasing my projects, skills, and experience as an aspiring frontend developer.  
+Built with clean design, smooth navigation, and a focus on delivering a great user experience.
 
-Features
+---
 
-Fully responsive design for mobile, tablet, and desktop
+##  Features
 
-Smooth animations and transitions
+- 📱 **Fully responsive** design for mobile, tablet, and desktop
+- 🎯 Smooth animations and transitions for a modern look
+- 💼 Project showcase with descriptions and tech stack
+- 📬 Contact section for easy reach
+- 🧭 Simple, intuitive navigation
 
-Project showcase with descriptions and tech stack
+---
 
-Contact section for easy reach
+##  Tech Stack
 
-Simple, intuitive navigation
+- **HTML5**
+- **CSS3 / Bootstrap**
+- **JavaScript**
+- **Font Awesome Icons**
 
-Tech Stack
+---
 
-HTML5
+##  Project Sections
 
-CSS3 / Bootstrap
+- **About Me** – Brief introduction and career goals
+- **Projects** – Highlights of my key work with live links & code
+- **Contact** – Ways to connect and collaborate
 
-JavaScript
+---
 
-Font Awesome Icons
+##  Getting Started
 
-Project Sections
-
-About Me – Brief introduction and career goals
-
-Projects – Highlights of my key work with live links & code
-
-Contact – Ways to connect and collaborate
-
-Getting Started
-
-Clone the repo
-
-git clone https://github.com/yourusername/portfolio-website.git
-
-
-Open index.html in your browser
-
-Contact
-
-If you’d like to collaborate or connect, feel free to reach out:
-
-Email: your.email@example.com
-
-LinkedIn: linkedin.com/in/yourprofile
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/webdev-Sameera/MyPortfolio
