@@ -16,13 +16,12 @@
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: 'Inter', sans-serif;
             line-height: 1.6;
             color: var(--text-primary);
             scroll-behavior: smooth;
         }
 
-        /* Navigation */
         .navbar {
             position: fixed;
             top: 0;
@@ -44,7 +43,7 @@
         }
 
         .logo {
-            font-size: 1.5rem;
+            font-size: 1.7rem;
             font-weight: 700;
             background: var(--gradient);
             -webkit-background-clip: text;
