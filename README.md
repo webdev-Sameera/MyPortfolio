@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio Website
+#  Personal Portfolio Website
 
 A personal portfolio website showcasing my projects, skills, and experience as an aspiring frontend developer.  
 Built with clean design, smooth navigation, and a focus on delivering a great user experience.
@@ -7,11 +7,11 @@ Built with clean design, smooth navigation, and a focus on delivering a great us
 
 ##  Features
 
-- 📱 **Fully responsive** design for mobile, tablet, and desktop
-- 🎯 Smooth animations and transitions for a modern look
-- 💼 Project showcase with descriptions and tech stack
-- 📬 Contact section for easy reach
-- 🧭 Simple, intuitive navigation
+-  **Fully responsive** design for mobile, tablet, and desktop
+-  Smooth animations and transitions for a modern look
+-  Project showcase with descriptions and tech stack
+-  Contact section for easy reach
+-  Simple, intuitive navigation
 
 ---
 
